@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/home_style.css">
+
+    
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- font awasome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"
+        integrity="sha512-Mo79lrQ4UecW8OCcRUZzf0ntfMNgpOFR46Acj2ZtWO8vKhBvD79VCp3VOKSzk6TovLg5evL3Xi3u475Q/jMu4g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .about-us-info h4{
+            font-size: 25px;
+            padding-top: 40px;
+        }
+        .about-us-info p{
+            font-size: 20px;
+        }
+        .about-us-page-button{
+            width: 100%;
+            font-size: 20px;
+        }
+    </style>
+
+
+</head>
+
+<body style="background-color: #ddd9d9; ">
+
+    <!-- create a div for about us heading and social media icons  -->
+    <div class="row border-bottom border-dark">
+        <div class="col-lg-4 bg-dark text-light p-3 text-center">
+            <h1>People</h1>
+        </div>
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4 my-3">
+            <ul class="social_medias_icons">
+                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i></i></li>
+                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li><i class="fa fa-linkedin" aria-hidden="true"></i></i></li>
+                <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container m-auto">
+        <h1 class="text-center">This is People Page</h1>
+    </div>
+
+
+    <!-- fixed footer navigation manu  -->
+    <div class="navbar" id="myNavbar">
+        <a href="home.html" class="active">
+            <img src="images/building.png" style="height: 20px;" alt="" srcset="">
+            HOME
+        </a>
+        <a href="about_us.html">
+            <img src="images/about.png" style="height: 20px;" alt="" srcset="">
+            ABOUT US
+        </a>
+        <a href="services.html">
+            <img src="images/about.png" style="height: 20px;" alt="" srcset="">
+            SERVICES
+        </a>
+        <a href="projects.html">
+            <img src="images/building.png" style="height: 20px;" alt="" srcset="">
+            PROJECTS
+        </a>
+        <a href="clints.html">
+            <img src="images/building.png" style="height: 20px;" alt="" srcset="">
+            CLINTS
+        </a>
+        <a href="#about">
+            <img src="images/training.png" style="height: 20px;" alt="" srcset="">
+            CARRIERS
+        </a>
+        <a href="contacts.html">
+            <img src="images/communicate.png" style="height: 20px;" alt="" srcset="">
+            CONTACTS
+        </a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+        </script>
+
+    <script>
+
+        function myFunction() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
